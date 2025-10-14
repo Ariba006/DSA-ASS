@@ -1,0 +1,157 @@
+# C/C++ Compiled Object Files
+*.o
+*.obj
+*.elf
+*.ko
+*.so
+*.dylib
+
+# C/C++ Executables (excluding project executables for professor review)
+# *.exe
+# *.out
+*.app
+# qSim
+# qSim.exe
+
+# C/C++ Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# C/C++ Debug Files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# CMake Build Files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Build Directories (excluding bin/ for professor review)
+build/
+cmake-build-*/
+# bin/
+lib/
+dist/
+out/
+
+# IDE and Editor Files
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+
+# Dev-C++
+*.dev
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and Test Files
+*.log
+test_results/
+Testing/
+
+# Package Manager Files
+# Conan
+conandata.yml
+conanfile.txt
+conaninfo.txt
+
+# vcpkg
+vcpkg_installed/
+
+# System Files
+# Windows
+*.lnk
+*.ini
+ehthumbs.db
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Backup Files
+*.bak
+*.orig
+*.rej
+
+# Archives (usually not source code)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation Build
+docs/_build/
+doc/html/
+doc/latex/
+
+# Coverage Reports
+*.gcov
+*.gcda
+*.gcno
+coverage/
+*.coverage
+
+# Profiling Data
+*.prof
+gmon.out
+
+# Static Analysis
+cppcheck-report.xml
+scan-build/
+
+# Memory Check
+valgrind-*.log
