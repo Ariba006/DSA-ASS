@@ -14,12 +14,9 @@ int main(int argc, char *argv[]) {
     float sim_time = atof(argv[3]);
     float base_service = atof(argv[4]);
 
-    // 🔸 Seed random number generator
     srand(time(NULL));
-
     printf("=== Simulation with %d tellers, SINGLE common queue ===\n", num_tellers);
     simulate(num_customers, num_tellers, sim_time, base_service, 1);
-
     printf("\n=== Simulation with %d tellers, SEPARATE queues ===\n", num_tellers);
     simulate(num_customers, num_tellers, sim_time, base_service, 0);
 
